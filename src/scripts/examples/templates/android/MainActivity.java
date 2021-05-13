@@ -2,7 +2,7 @@ package io.ionic.starter;
 
 import android.content.Intent;
 import android.os.Bundle;
-import co.boundstate.BranchDeepLinks;
+import co.hied.BranchDeepLinks;
 import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Plugin;
 import java.util.ArrayList;

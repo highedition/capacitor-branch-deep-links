@@ -1,4 +1,4 @@
-package co.boundstate;
+package co.hied;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,7 +15,6 @@ import io.branch.referral.Branch;
 import io.branch.referral.BranchError;
 import io.branch.referral.BranchShareSheetBuilder;
 import io.branch.referral.BranchShortLinkBuilder;
-import io.branch.referral.BranchUtil;
 import io.branch.referral.SharingHelper;
 import io.branch.referral.util.BRANCH_STANDARD_EVENT;
 import io.branch.referral.util.BranchEvent;

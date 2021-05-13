@@ -1,4 +1,4 @@
-package co.boundstate;
+package co.hied;
 
 import static org.junit.Assert.*;
 
