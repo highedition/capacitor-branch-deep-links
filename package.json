@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-branch-deep-links",
+  "name": "@hied/capacitor-branch",
   "version": "3.0.2",
   "description": "Capacitor plugin for Branch.io deep links",
   "main": "dist/plugin.js",
@@ -15,7 +15,7 @@
     "examples": "echo 'generate examples'; node ./src/scripts/examples",
     "prepublishOnly": "npm run build"
   },
-  "author": "Bound State Software <info@boundstatesoftware.com>",
+  "author": "David Kwon <tienne89@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^2.4.0",
@@ -62,10 +62,10 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BranchMetrics/capacitor-branch-deep-links"
+    "url": "https://github.com/highedition/capacitor-branch-deep-links.git"
   },
   "bugs": {
-    "url": "https://github.com/BranchMetrics/capacitor-branch-deep-links/issues"
+    "url": "https://github.com/highedition/capacitor-branch-deep-links.git"
   },
   "husky": {
     "hooks": {
@@ -74,5 +74,8 @@
   },
   "lint-staged": {
     "*.{css,html,ts,js,java,md}": "prettier --write"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
