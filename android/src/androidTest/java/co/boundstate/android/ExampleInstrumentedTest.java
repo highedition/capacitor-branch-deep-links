@@ -1,4 +1,4 @@
-package co.boundstate.android;
+package co.hied.android;
 
 import static org.junit.Assert.*;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("co.boundstate.capacitorbranchdeeplinks.test", appContext.getPackageName());
+        assertEquals("co.hied.capacitorbranch.test", appContext.getPackageName());
     }
 }
