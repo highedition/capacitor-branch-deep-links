@@ -1,6 +1,6 @@
-package co.boundstate;
+package co.hied;
 
-import static co.boundstate.BranchDeepLinks.getBranchInstance;
+import static co.hied.BranchDeepLinks.getBranchInstance;
 
 import androidx.multidex.MultiDexApplication;
 

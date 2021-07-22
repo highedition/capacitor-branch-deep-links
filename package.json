@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-branch-deep-links",
+  "name": "@hied/capacitor-branch",
   "version": "4.0.0",
   "description": "Capacitor plugin for Branch.io deep links",
   "main": "dist/plugin.cjs.js",
@@ -42,7 +42,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorBranchDeepLinks.podspec"
+    "HiedCapacitorBranch.podspec"
   ],
   "keywords": [
     "branch.io",
@@ -64,10 +64,10 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BranchMetrics/capacitor-branch-deep-links"
+    "url": "https://github.com/highedition/capacitor-branch-deep-links"
   },
   "bugs": {
-    "url": "https://github.com/BranchMetrics/capacitor-branch-deep-links/issues"
+    "url": "https://github.com/highedition/capacitor-branch-deep-links/issues"
   },
   "husky": {
     "hooks": {

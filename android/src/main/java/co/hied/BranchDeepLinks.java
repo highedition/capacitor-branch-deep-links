@@ -1,12 +1,12 @@
-package co.boundstate;
+package co.hied;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.os.UserManager;
-import androidx.annotation.Nullable;
+import android.util.Log;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
@@ -33,6 +33,7 @@ import org.json.JSONObject;
 
 @CapacitorPlugin(name = "BranchDeepLinks")
 public class BranchDeepLinks extends Plugin {
+
     private static final String EVENT_INIT = "init";
     private static final String EVENT_INIT_ERROR = "initError";
 
@@ -123,7 +124,6 @@ public class BranchDeepLinks extends Plugin {
 
         shortLinkBuilder.generateShortUrl(
             new Branch.BranchLinkCreateListener() {
-
                 @Override
                 public void onLinkCreate(String url, BranchError error) {
                     if (error == null) {
@@ -255,7 +255,6 @@ public class BranchDeepLinks extends Plugin {
             .setIdentity(
                 newIdentity,
                 new Branch.BranchReferralInitListener() {
-
                     @Override
                     public void onInitFinished(JSONObject referringParams, BranchError error) {
                         if (error == null) {
@@ -276,7 +275,6 @@ public class BranchDeepLinks extends Plugin {
             .getInstance()
             .logout(
                 new Branch.LogoutStatusListener() {
-
                     @Override
                     public void onLogoutFinished(boolean loggedOut, BranchError error) {
                         if (error == null) {
