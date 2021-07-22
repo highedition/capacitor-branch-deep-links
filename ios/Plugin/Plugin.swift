@@ -75,7 +75,7 @@ public class BranchDeepLinks: CAPPlugin {
 
         let buo = BranchUniversalObject.init()
         DispatchQueue.main.async {
-            buo.showShareSheet(with: linkProperties, andShareText: shareText, from: self.bridge.viewController, completion: nil)
+            buo.showShareSheet(with: linkProperties, andShareText: shareText, from: self.bridge?.viewController, completion: nil)
         }
 
         call.success()
